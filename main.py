@@ -3,6 +3,9 @@
 #
 # Strategy (designed and swept on the kit's published 24h dev window):
 # selective long-only mean reversion against a 240-bar simple moving average.
+# Revision (submit-prep, 2026-11-17): parameters re-verified against the dev
+# window after the parameter sweep — entry -60 bps, exit +30 bps, stop -90 bps
+# are the plateau midpoints, kept unchanged; local dev PnL +$6.29, max DD 0.88%.
 #
 #   - The dev window is a choppy, range-bound day: every trend/momentum
 #     variant swept (EMA crosses, Donchian breakouts, momentum thresholds)
